@@ -21,6 +21,8 @@ _{This is a silly webpage form for a one topping only pizza shop.  It will take 
 
 _Every new order after the first, copies the h1 and ul display every time the "Knead that dough! button is pressed._
 
+_else if cost statements are not working correctly._
+
 ## Support and Contact Details
 
 _Any issues with this site, please [e-mail me] (baronsintrees@gmail.com) here._

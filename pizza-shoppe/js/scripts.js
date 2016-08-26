@@ -1,5 +1,4 @@
 // Business Logic
-var orders = [];
 function Pizza (name, topping, size) {
   this.name = name;
   this.topping = topping;
@@ -7,13 +6,21 @@ function Pizza (name, topping, size) {
 }
 
 Pizza.prototype.cost = function() {
+var pizzaPrice = 0;
  if (this.size === "Small: good for NOT sharing. Like, ever."){
-   return 8;
+   pizzaPrice += 4;
  } else {
-   return 16;
+   pizzaPrice += 10;
  }
-}
 
+ if (this.topping === "Regular pie, thanks.") {
+     pizzaPrice += 4;
+   } else {
+     pizzaPrice += 6;
+   }
+ return pizzaPrice;
+}
+var orders = [];
 
 // User Interface Logic
 $(document).ready(function(){
@@ -35,12 +42,14 @@ $(document).ready(function(){
         totalCost += order.cost();
       }
       counter++;
+      orders = [];
+      $("#output").empty();
+      //$("#output").hide();
     });
     $("#output").append("<h2> Total Cost: $"+totalCost+"</h2>");
     $("#output").show();
     $("#delete").show();
     $("#nother").show();
-    orders = [];
 
     //$("#output").empty();
   });
