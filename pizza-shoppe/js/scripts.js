@@ -4,6 +4,7 @@ function Pizza (name, topping, size) {
   this.name = name;
   this.topping = topping;
   this.size = size;
+  console.log(Pizza);
 }
 
 Pizza.prototype.cost = function() {
@@ -14,9 +15,9 @@ Pizza.prototype.cost = function() {
 $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
-    var inputName = $("").val();
-    var inputTopping = $("").val();
-    var inputSize = $("").val();
+    var inputName = $("#name-in").val();
+    var inputTopping = $("#topping-in").val();
+    var inputSize = $("#size-in").val();
     var newPizza = new Pizza(inputName, inputTopping, inputSize);
 
     //return info in a hidden div "#output"
