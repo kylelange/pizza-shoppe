@@ -1,0 +1,47 @@
+/*Universal Selectors****************/
+html, body {
+  height: 100%;
+}
+
+body {
+  color: darkblue;
+  font-weight: bolder;
+  background-image: url(../img/pizza2.jpg);
+}
+
+label {
+  font-size: 1.3em;
+}
+
+/*Class Selectors********************/
+
+.container {
+  background-color: rgba(204, 173, 0,0.5);
+  /*background:linear-gradient(rgba(204, 173, 0,.6), rgba(204, 173, 0,0.2);*/
+  height: 100%;
+}
+
+.btn {
+  background-color: lightblue;
+  border: 2px solid darkblue;
+}
+
+/*Id Selectors***********************/
+#header {
+background-color: rgba(204, 173, 0,0.5);
+padding: 25px;
+}
+
+#pizza-guy {
+  margin-top: 25px;
+  width: 650px;
+  height: 365.63px;
+  border: 3px outset darkblue;
+}
+
+#topping-in, #size-in {
+ color: darkblue;
+}
+
+
+/*Media Queries**********************/
