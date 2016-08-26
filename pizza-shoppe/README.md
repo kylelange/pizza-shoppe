@@ -50,6 +50,9 @@ FOUR: The program will use a prototype to calculate the price of the pizza depen
   * _Input: Pizza.prototype.sizeCost
   * _Output: $7
 
+FIVE:  The program will be able to store, calculate, and display multiple orders.
+  * _Input: One large olive pizza + one small mushroom pizza.
+  * _Output: 16 + 8 = $24.
 
 ### License
 
