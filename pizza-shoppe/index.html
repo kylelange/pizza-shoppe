@@ -9,7 +9,7 @@
     <script src="js/scripts.js"></script>
     <title>Pizza Shoppe</title>
   </head>
-  <body>
+  <body id="background-col">
     <div>
       <h1 id="header">One-Top Pizza Shop</h1><hr>
     </div>
@@ -19,10 +19,10 @@
           <img id="pizza-guy" src="img/pizza-guy.jpg" alt="an enthusiastic pizza maker"/>
           <div id="output">
             <h1>Your Pie:</h1>
-
           </div>
+          <button id="delete" class="btn btn-md">Delete Selected</button>
         </div>
-        <h1>Order a pie, paisano:</h1>
+        <h1>Order a<span id="nother">nother</span> pie, paisano:</h1>
         <div class="col-sm-4">
           <form id="userInput">
             <div class="form-group">
@@ -32,7 +32,7 @@
             <div class="form-group">
               <label for="topping">Topping: Remember, you only get ONE...</label>
               <select class="form-control" id="topping-in">
-                <option>Just a regular pie, thanks.</option>
+                <option>Regular pie, thanks.</option>
                 <option>Black Olive!</option>
                 <option>Mushroom? Yep!</option>
                 <option>Truffle Oil; you betcha.</option>
@@ -41,11 +41,11 @@
             <div class="form-group">
               <label for="size">Size: How big?</label>
               <select class="form-control" id="size-in">
-                <option>Small (good for NOT sharing.  Like, ever.)</option>
+                <option>Small: good for NOT sharing. Like, ever.</option>
                 <option>X-tra LARGE (The pizza comes in TWO boxes, it is so big!)</option>
               </select>
             </div>
-            <button type="submit" class="btn btn-md">Knead That Dough!</button>
+            <button type="submit" class="btn btn-md">Knead that dough!</button>
           </form>
         </div>
       </div>

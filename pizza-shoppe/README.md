@@ -19,7 +19,7 @@ _{This is a silly webpage form for a one topping only pizza shop.  It will take 
 
 ## Known Bugs
 
-_There are no known bugs in this program as of Aug. 26, 2016_
+_Every new order after the first, copies the h1 and ul display every time the "Knead that dough! button is pressed._
 
 ## Support and Contact Details
 
@@ -53,6 +53,10 @@ FOUR: The program will use a prototype to calculate the price of the pizza depen
 FIVE:  The program will be able to store, calculate, and display multiple orders.
   * _Input: One large olive pizza + one small mushroom pizza.
   * _Output: 16 + 8 = $24.
+
+SIX: The program will allow he user to delete an order.
+  * _Input: One large olive pizza + one small mushroom pizza.
+  * _Output: One large olive pizza.
 
 ### License
 
