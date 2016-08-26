@@ -19,7 +19,9 @@ _{This is a silly webpage form for a one topping only pizza shop.  It will take 
 
 ## Known Bugs
 
-_total pizza cost is calculated up, but when you take a pizza off the order, the number does not adjust down.  The erased pizzas also re-enter the list after one has been erased and the "knead the Dough! button is pressed again._
+_Total pizza cost is calculated up, but when you take a pizza off the order, the number does not adjust down.  The erased pizzas also re-enter the list after one has been erased and the "knead the Dough! button is pressed again._
+
+_Yellow .container overlay color does not extend to the bottom of the page after the output order field shows up on the page._
 
 ## Support and Contact Details
 

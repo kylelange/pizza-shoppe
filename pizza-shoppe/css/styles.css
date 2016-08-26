@@ -17,14 +17,15 @@ h1 {
   font-family: 'myFirstFont', sans-serif;
   letter-spacing: 2px;
   font-size: 1.5em;
+  padding-bottom: 25px;
 }
 
-h2, label, ul, li {
+h2, label, ul, li, .form-control, .btn {
   font-family: 'Righteous', cursive;
 }
 
 label {
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 li {
@@ -33,16 +34,23 @@ li {
 
 /*Class Selectors********************/
 
-.container {
+.row {
   background-color: rgba(204, 173, 0,0.5);
   /*background:linear-gradient(rgba(204, 173, 0,.6), rgba(204, 173, 0,0.2);*/
   height: 100%;
 }
 
-.btn {
+.btn, .form-control {
   background-color: lightblue;
   border: 2px solid darkblue;
+  font-size: 1.2em;
 }
+
+.btn {
+  margin-top: 25px;
+}
+
+
 
 /*Id Selectors***********************/
 #header {
@@ -66,4 +74,7 @@ font-size: 1.7em;
   display: none;
 }
 
+#address {
+  padding-top: 25px;
+}
 /*Media Queries**********************/
