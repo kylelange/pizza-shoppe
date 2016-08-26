@@ -1,4 +1,8 @@
 /*Universal Selectors****************/
+@font-face {
+  font-family: 'myFirstFont';
+  src: url(../fonts/order-pizza.ttf);
+}
 html, body {
   height: 100%;
 }
@@ -9,8 +13,22 @@ body {
   background-image: url(../img/pizza2.jpg);
 }
 
+h1 {
+  font-family: 'myFirstFont', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+}
+
+h2, label, ul, li {
+  font-family: 'Righteous', cursive;
+}
+
 label {
-  font-size: 1.3em;
+  font-size: 1.5em;
+}
+
+li {
+  font-size: 1.5em;
 }
 
 /*Class Selectors********************/
@@ -30,6 +48,7 @@ label {
 #header {
 background-color: rgba(204, 173, 0,0.5);
 padding: 25px;
+font-size: 1.7em;
 }
 
 #pizza-guy {

@@ -26,7 +26,7 @@ $(document).ready(function(){
     var newPizza = new Pizza(inputName, inputTopping, inputSize);
     orders.push(newPizza);
 
-    $("#output").append("<h1> Okay "+newPizza.name+", here is your pie:</h1><ul></ul>");
+    $("#output").append("<h2> Okay "+newPizza.name+", here is your pie:</h2><ul></ul>");
     var totalCost = 0;  //will use to calculate cost of multiple pizzas
     var counter = 0;  //will use to label checkboxes generated in the .forEach display loop
     orders.forEach(function(order){
