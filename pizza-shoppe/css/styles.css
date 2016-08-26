@@ -43,5 +43,8 @@ padding: 25px;
  color: darkblue;
 }
 
+#output {
+  display: none;
+}
 
 /*Media Queries**********************/

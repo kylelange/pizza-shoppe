@@ -18,5 +18,8 @@ $(document).ready(function(){
     var inputTopping = $("").val();
     var inputSize = $("").val();
     var newPizza = new Pizza(inputName, inputTopping, inputSize);
+
+    //return info in a hidden div "#output"
+    $("#output").show();
   });
 });
