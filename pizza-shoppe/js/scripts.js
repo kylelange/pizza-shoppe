@@ -4,7 +4,7 @@ function Pizza (name, topping, size) {
   this.name = name;
   this.topping = topping;
   this.size = size;
-  console.log(Pizza);
+  console.log(this.name);
 }
 
 Pizza.prototype.cost = function() {
