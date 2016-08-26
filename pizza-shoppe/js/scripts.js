@@ -7,7 +7,7 @@ function Pizza (name, topping, size) {
 
 Pizza.prototype.cost = function() {
 var pizzaPrice = 0;
- if (this.size === "Small: good for NOT sharing. Like, ever."){
+ if (this.size === "Small: good for NOT sharing. Like, ever.") {
    pizzaPrice += 4;
  } else {
    pizzaPrice += 10;
@@ -26,7 +26,7 @@ var orders = [];
 $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
-    //debugger;
+    $("#output").empty();
     var inputName = $("#name-in").val();
     var inputTopping = $("#topping-in").val();
     var inputSize = $("#size-in").val();
@@ -42,16 +42,11 @@ $(document).ready(function(){
         totalCost += order.cost();
       }
       counter++;
-      orders = [];
-      $("#output").empty();
-      //$("#output").hide();
     });
     $("#output").append("<h2> Total Cost: $"+totalCost+"</h2>");
     $("#output").show();
     $("#delete").show();
     $("#nother").show();
-
-    //$("#output").empty();
   });
   $("#delete").click(function(){
     //debugger;
