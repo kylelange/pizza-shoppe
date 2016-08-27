@@ -53,7 +53,7 @@ $(document).ready(function(){
     checkOn.each(function(){
       var index = parseInt($(this).children("input").val());
       orders[index] = "";
-      colsole.log(orders);
+      //colsole.log(orders);
       console.log(parseInt($(this).children("input").val()));
       //var totalCost = totalCost += order.cost();
       //console.log(totalCost);
