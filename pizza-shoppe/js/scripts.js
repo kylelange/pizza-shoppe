@@ -44,9 +44,9 @@ $(document).ready(function(){
       counter++;
     });
     $("#output").append("<h2> Total Cost: $"+totalCost+"</h2>");
-    $("#output").show();
+    $("#output").show("slow");
     $("#delete").show();
-    $("#nother").show();
+    $("#nother").show("slow");
   });
   $("#delete").click(function(){
     var checkOn = $("#output input:checked").parent();
