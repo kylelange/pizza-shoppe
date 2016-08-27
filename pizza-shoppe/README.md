@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a silly webpage form for a one topping only pizza shop.  It will take minimal user inputs, store them in an object, and return an order back to the user. [see it live, here:] (https://kylelange.github.io/pizza-shoppe/)}_
+_{This is a silly webpage form for a one topping only pizza shop.  It will take minimal user inputs, store them in an object, and return an order back to the user. [see it live, here:] (https://github.com/kylelange/pizza-shoppe/tree/master/pizza-shoppe)}_
 
 ## Setup/Installation Requirements
 
