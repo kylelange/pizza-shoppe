@@ -4,17 +4,18 @@ function Pizza (name, topping, size) {
   this.name = name;
   this.topping = topping;
   this.size = size;
+
 }
 
 Pizza.prototype.cost = function() {
 var pizzaPrice = 0;
- if (this.size === "Small: good for NOT sharing. Like, ever.") {
+ if (this.size === "a") {
    pizzaPrice += 4;
  } else {
    pizzaPrice += 10;
  }
 
- if (this.topping === "Regular pie, thanks.") {
+ if (this.topping === "1") {
      pizzaPrice += 4;
    } else {
      pizzaPrice += 6;

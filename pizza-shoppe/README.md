@@ -36,27 +36,21 @@ _Any issues with this site, please [e-mail me] (baronsintrees@gmail.com) here._
 
 ## Specs/ Behavior Driven Development: Expected Outcomes.
 
-ONE: The program will accept user name as an input and store it in an object.
-  * _Input: Kyle Lange
-  * _Output: this.name = Kyle Lange
+what instead of how in specs.
 
-TWO: The program will accept user toping choice and store it in an object.
-  * _Input: 2 (via a dropdown menu)
-  * _Output: Mushrooms (via an array counter)
+ONE: The program will accept user name, topping choice, and size.
+  * _Input: Kyle Lange, Black Olive, Small
+  * _Output: "Kyle Lange", "Black Olive", "Small"
 
-THREE: The program will accept user size choice and store it in an object.
-  * _Input: Small
-  * _Output: this.size = small
-
-FOUR: The program will use a prototype to calculate the price of the pizza depending on the size.
-  * _Input: Pizza.prototype.sizeCost
+TWO: The program will calculate the price of the pizza depending on the size.
+  * _Input: "Small"
   * _Output: $7
 
-FIVE:  The program will be able to store, calculate, and display multiple orders.
+THREE:  The program will be able to calculate and display multiple orders.
   * _Input: One large olive pizza + one small mushroom pizza.
   * _Output: 16 + 8 = $24.
 
-SIX: The program will allow he user to delete an order.
+FOUR: The program will allow he user to delete an order.
   * _Input: One large olive pizza + one small mushroom pizza.
   * _Output: One large olive pizza.
 
